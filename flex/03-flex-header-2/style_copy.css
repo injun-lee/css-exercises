@@ -12,10 +12,6 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  /* Written code here */
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
 }
 
 .profile-image {
@@ -49,37 +45,4 @@ a {
 
 ul {
   list-style-type: none;
-  /* Write a code */
-  display: flex;
-  flex-flow: row;
-  gap: 8px;
 }
-
-.left-header {
-  display: flex;
-  flex-flow: row;
-  flex:none;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 8px;
-  padding: 8px;
-}
-
-.right-header {
-  display: flex;
-  flex-flow: row;
-  flex:none;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 8px;
-  gap: 8px;
-}
-
-/* Things to improv
-1. Since style of left-header and right-header is same, you don't need to write a duplicate code.
-.left-header .right-header {
-
-}
-2. Don't write a code for default value.
-e.g) flex-flow: row; (since it is default value, you don't need to write it.
-*/
